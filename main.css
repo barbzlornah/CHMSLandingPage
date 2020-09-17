@@ -38,10 +38,10 @@ body {
   height: 100vh;
   
 }
-.carousel-caption p {
+.carousel-caption .d-block p {
 	text-align: center;
-	font-size: 1rem;
-  color:black;
+	font-size: 1.5rem;
+  color:white;
   position: relative;
   left: 0;
   top: 0;
@@ -53,6 +53,14 @@ body {
   -moz-transition: 10s ease-in-out left;
   -o-transition: 10s ease-in-out left;
   transition: 10s ease-in-out left;
+}
+.black-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.6);
 }
 /*Header*/
 .app-header{
@@ -106,6 +114,10 @@ body {
   padding: 40px 0;
 }
 
+.image-partners {
+        size: 2em;
+}
+
 @media (max-width: 576px) {
 
   .description {
@@ -131,10 +143,3 @@ body {
   
 
 }
-/*@media only screen and (max-width: 576px) {
-  .carousel-caption {
-      
-          font-size: 1rem;
-      
-  }
-}*/
